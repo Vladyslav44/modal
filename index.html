@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>Modal</title>
+</head>
+<body>
+    <div class="section-button">
+        <button id="open-pop-up">Open Form</button>
+    </div>
+    <div id="pop-up" class="section-modal">
+        <div class="section-modal-container">
+            <div id="body-pop-up" class="modal-body">
+                <p>Оставить данные</p>
+                <form action="">
+                    <input id="input-modal" type="text" placeholder="User name">
+                    <input id="input-modal2" type="email" placeholder="Email">
+                    <input id="input-modal3" type="tel" placeholder="Phone">
+                    <button id="send-info">Отправить</button>
+                </form>
+                <div id="close-pop-up" class="modal-close">&#10006</div>
+            </div>
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
